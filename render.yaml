@@ -9,33 +9,33 @@ services:
     healthCheckPath: /
     envVars:
       - key: DB_TYPE
-        value: sqlite3
+        # value: sqlite3
         sync: false
       - key: DB_HOST
-        value: db_host
+        # value: db_host
         sync: false
       - key: DB_PORT
-        value: 3306
+        # value: 3306
         sync: false
       - key: DB_USER
-        value: db_user
+        # value: db_user
         sync: false
       - key: DB_PASS
-        value: db_password
+        # value: db_password
         sync: false
       - key: DB_NAME
-        value: db_name
+        # value: db_name
         sync: false
       - key: DB_TABLE_PREFIX
-        value: alist_
+        # value: alist_
         sync: false
       - key: ASSETS
-        value: https://npm.elemecdn.com/alist-web@$version/dist
+        # value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
       - key: CACHE_EXPIRATION
-        value: 60
+        # value: 60
         sync: false
       - key: CLEANUP_INTERVAL
-        value: 120
+        # value: 120
         sync: false
       
