@@ -8,6 +8,8 @@ services:
     plan: free # optional (defaults to starter)
     healthCheckPath: /
     envVars:
+      - key: PORT
+        value: 5244
       - key: DB_TYPE
         # value: sqlite3
         sync: false
