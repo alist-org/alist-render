@@ -1,7 +1,7 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: aidengrong
     env: docker
     repo: https://github.com/alist-org/alist-render.git # optional
     region: oregon # optional (defaults to oregon)
