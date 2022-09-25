@@ -31,13 +31,6 @@ services:
       - key: DB_TABLE_PREFIX
         # value: alist_
         sync: false
-      - key: ASSETS
+      - key: CDN
         # value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
-      - key: CACHE_EXPIRATION
-        # value: 60
-        sync: false
-      - key: CLEANUP_INTERVAL
-        # value: 120
-        sync: false
-      
